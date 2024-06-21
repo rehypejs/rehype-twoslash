@@ -1,0 +1,42 @@
+<p>A regular completion annotation.</p>
+<pre><code class="language-javascript">// @noErrors
+console.e
+//       ^|
+</code></pre>
+
+<p>Another, with existing extra characters.</p>
+<pre><code class="language-javascript">// @noErrors
+console.err
+//        ^|
+console.err
+//       ^|
+console.err
+//      ^|
+console.err
+//     ^|
+</code></pre>
+
+<p>Another, with non-existing extra characters.</p>
+<pre><code class="language-javascript">// @noErrors
+console.exa
+//        ^|
+console.exa
+//       ^|
+console.exa
+//      ^|
+console.exa
+//     ^|
+</code></pre>
+
+<p>A completion annotation that completes a deprecated value.</p>
+<pre><code class="language-javascript">// @noErrors
+const rule = new CSSRule()
+console.log(rule.ty)
+//                ^|
+</code></pre>
+
+<p>A completion annotation, not at the end.</p>
+<pre><code class="language-javascript">// @noErrors
+console.t
+// ^|
+</code></pre>

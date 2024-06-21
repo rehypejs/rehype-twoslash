@@ -1,0 +1,31 @@
+<h1>Handbook options</h1>
+<h2><code>Errors</code></h2>
+<pre><code class="language-typescript">// @errors: 2322 2588
+const str: string = 1
+str = 'Hello'
+</code></pre>
+
+<h2><code>noErrors</code></h2>
+<pre><code class="language-typescript">// @noErrors
+const str: string = 1
+str = 'Hello'
+</code></pre>
+
+<h2><code>noErrorsCutted</code></h2>
+<pre><code class="language-typescript">// @noErrorsCutted
+const hello = 'world'
+// ---cut-after---
+hello = 'hi' // Supposed to be an error, but ignored because it's cutted.
+</code></pre>
+
+<h2><code>noErrorValidation</code></h2>
+<pre><code class="language-typescript">// @noErrorValidation
+const str: string = 1
+</code></pre>
+
+<h2><code>keepNotations</code></h2>
+<pre><code class="language-typescript">// @keepNotations
+// @module: esnext
+// @errors: 2322
+const str: string = 1
+</code></pre>

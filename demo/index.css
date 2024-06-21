@@ -1,0 +1,116 @@
+:root {
+  --color-canvas-back: #f6f8fa;
+  --color-canvas-front: #ffffff;
+  --color-border: #d0d7de;
+  --color-hl: #0969da;
+  --color-fg: #0d1117;
+
+  color-scheme: light dark;
+  font-family: system-ui;
+  background-color: var(--color-canvas-back);
+  color: var(--color-fg);
+  word-break: break-word;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-canvas-back: #0d1117;
+    --color-canvas-front: #161b22;
+    --color-border: #30363d;
+    --color-hl: #58a6ff;
+    --color-fg: #f6f8fa;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  background-color: var(--color-canvas-back);
+  position: relative;
+  margin: 0 auto;
+  padding: calc(2 * (1em + 1ex));
+  max-width: calc(40 * (1em + 1ex));
+}
+
+@media (min-width: calc(10 * (1em + 1ex))) and (min-height: calc(10 * (1em + 1ex))) {
+  main {
+    /* Go all Tschichold when supported */
+    margin: 11vh 22.2vw 22.2vh 11.1vw;
+    border: 1px solid var(--color-border);
+    border-radius: 3px;
+  }
+}
+
+* {
+  line-height: calc(1 * (1em + 1ex));
+  box-sizing: border-box;
+}
+
+.markdown-body {
+  background-color: transparent;
+}
+
+/* Reset the list for `github-markdown-css`. */
+.rehype-twoslash-completions {
+  list-style-type: none !important;
+  padding-left: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* Lowlight deprecated suggestions. */
+.rehype-twoslash-completion-deprecated {
+  opacity: 0.5;
+}
+
+/* Regular “button” cursor instead of text selection cursor. */
+.rehype-twoslash-popover-target {
+  cursor: default;
+}
+
+/* Show what can be interacted with. */
+.highlight:is(:hover, :focus-within) .rehype-twoslash-popover-target {
+  background-color: var(--bgColor-neutral-muted);
+}
+
+/* Wavy underline for errors. */
+.rehype-twoslash-error-target {
+  background-repeat: repeat-x;
+  background-position: bottom left;
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 3" enable-background="new 0 0 6 3" height="3" width="6"><g fill="%23c94824"><polygon points="5.5,0 2.5,3 1.1,3 4.1,0"/><polygon points="4,0 6,2 6,0.6 5.4,0"/><polygon points="0,2 1,3 2.4,3 0,0.6"/></g></svg>');
+}
+
+/* The content that will be shown in the tooltip. */
+.rehype-twoslash-popover {
+  position: absolute;
+  max-width: calc(45 * (1em + 1ex));
+  padding: calc(0.5 * (1em + 1ex));
+  margin: 0;
+  background-color: var(--color-canvas-front);
+  border: 1px solid var(--color-border);
+  border-radius: 3px;
+}
+
+/* No padding if we have a padded code block (and perhaps more blocks) */
+.rehype-twoslash-popover:has(.rehype-twoslash-popover-code) {
+  padding: 0;
+}
+
+/* Docs for type info. */
+.rehype-twoslash-popover-description {
+  background-color: var(--color-canvas-back);
+  padding: 1em;
+}
+
+/* Reset extra space for `github-markdown-css`. */
+.rehype-twoslash-popover-description
+  > :last-child:is(p, blockquote, ul, ol, dl, table, pre, details) {
+  margin-bottom: 0;
+}
+
+/* Extra highlight. */
+.rehype-twoslash-completion-swap,
+.rehype-twoslash-highlight {
+  background-color: var(--borderColor-attention-emphasis);
+}

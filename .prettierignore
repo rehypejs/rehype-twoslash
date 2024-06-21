@@ -1,0 +1,5 @@
+coverage/
+test/fixtures/
+*.json
+*.html
+*.md

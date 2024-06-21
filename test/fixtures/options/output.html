@@ -1,0 +1,37 @@
+<h1>Options</h1>
+<p><code>noImplicitAny</code></p>
+<div class="highlight highlight-ts">
+<pre><code class="language-ts"><span class="pl-c">// This suppose to throw an error,</span>
+<span class="pl-c">// but it won’t because we disabled noImplicitAny.</span>
+<span class="pl-k">const</span> <span class="rehype-twoslash-popover-target" data-popover-target="rehype-twoslash-nftefaa1-0"><span class="pl-en">fn</span></span> <span class="pl-k">=</span> <span class="rehype-twoslash-popover-target" data-popover-target="rehype-twoslash-nftefaa1-1"><span class="pl-v">a</span></span> <span class="pl-k">=></span> <span class="rehype-twoslash-popover-target" data-popover-target="rehype-twoslash-nftefaa1-2"><span class="pl-smi">a</span></span> <span class="pl-k">+</span> <span class="pl-c1">1</span>
+</code></pre>
+<div class="rehype-twoslash-hover rehype-twoslash-popover" id="rehype-twoslash-nftefaa1-0" popover><pre class="rehype-twoslash-popover-code"><code class="language-ts"><span class="pl-k">const</span> <span class="pl-en">fn</span><span class="pl-k">:</span> (<span class="pl-v">a</span><span class="pl-k">:</span> <span class="pl-c1">any</span>) <span class="pl-k">=></span> <span class="pl-c1">any</span></code></pre></div>
+<div class="rehype-twoslash-hover rehype-twoslash-popover" id="rehype-twoslash-nftefaa1-1" popover><pre class="rehype-twoslash-popover-code"><code class="language-ts">(<span class="pl-smi">parameter</span>) <span class="pl-en">a</span>: <span class="pl-smi">any</span></code></pre></div>
+<div class="rehype-twoslash-hover rehype-twoslash-popover" id="rehype-twoslash-nftefaa1-2" popover><pre class="rehype-twoslash-popover-code"><code class="language-ts">(<span class="pl-smi">parameter</span>) <span class="pl-en">a</span>: <span class="pl-smi">any</span></code></pre></div>
+</div>
+<p><code>showEmit</code></p>
+<div class="highlight highlight-js">
+<pre><code class="language-js"><span class="pl-k">const</span> <span class="pl-c1">level</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>Danger<span class="pl-pds">'</span></span>;
+<span class="pl-k">export</span> {};
+</code></pre>
+</div>
+<p><code>showEmittedFile</code></p>
+<div class="highlight highlight-ts">
+<pre><code class="language-ts"><span class="pl-k">export</span> <span class="pl-k">declare</span> <span class="pl-k">const</span> <span class="pl-c1">hello</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>world<span class="pl-pds">"</span></span>;
+</code></pre>
+</div>
+<p><code>showEmittedFile (index.js.map)</code></p>
+<div class="highlight highlight-json">
+<pre><code class="language-json">{<span class="pl-ent">"version"</span>:<span class="pl-c1">3</span>,<span class="pl-ent">"file"</span>:<span class="pl-s"><span class="pl-pds">"</span>index.js<span class="pl-pds">"</span></span>,<span class="pl-ent">"sourceRoot"</span>:<span class="pl-s"><span class="pl-pds">""</span></span>,<span class="pl-ent">"sources"</span>:[<span class="pl-s"><span class="pl-pds">"</span>index.ts<span class="pl-pds">"</span></span>],<span class="pl-ent">"names"</span>:[],<span class="pl-ent">"mappings"</span>:<span class="pl-s"><span class="pl-pds">"</span>AAAA,MAAM,CAAC,MAAM,KAAK,GAAG,OAAO,CAAA<span class="pl-pds">"</span></span>}</code></pre>
+</div>
+<p><code>showEmittedFile (index.d.ts.map)</code></p>
+<div class="highlight highlight-json">
+<pre><code class="language-json">{<span class="pl-ent">"version"</span>:<span class="pl-c1">3</span>,<span class="pl-ent">"file"</span>:<span class="pl-s"><span class="pl-pds">"</span>index.d.ts<span class="pl-pds">"</span></span>,<span class="pl-ent">"sourceRoot"</span>:<span class="pl-s"><span class="pl-pds">""</span></span>,<span class="pl-ent">"sources"</span>:[<span class="pl-s"><span class="pl-pds">"</span>index.ts<span class="pl-pds">"</span></span>],<span class="pl-ent">"names"</span>:[],<span class="pl-ent">"mappings"</span>:<span class="pl-s"><span class="pl-pds">"</span>AAAA,eAAO,MAAM,KAAK,EAAE,MAAgB,CAAA<span class="pl-pds">"</span></span>}</code></pre>
+</div>
+<p><code>showEmittedFile (js)</code></p>
+<div class="highlight highlight-js">
+<pre><code class="language-js"><span class="pl-c">// @filename: b.ts</span>
+<span class="pl-k">import</span> { <span class="pl-smi">helloWorld</span> } <span class="pl-k">from</span> <span class="pl-s"><span class="pl-pds">'</span>./a<span class="pl-pds">'</span></span>;
+<span class="pl-en">console</span>.<span class="pl-c1">log</span>(helloWorld);
+</code></pre>
+</div>

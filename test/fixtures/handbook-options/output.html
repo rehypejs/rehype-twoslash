@@ -1,0 +1,46 @@
+<h1>Handbook options</h1>
+<h2><code>Errors</code></h2>
+<div class="highlight highlight-ts">
+<pre><code class="language-ts"><span class="pl-k">const</span> <span class="rehype-twoslash-popover-target" data-popover-target="rehype-twoslash-e22cs1sH-1"><span class="rehype-twoslash-error-target rehype-twoslash-popover-target" data-popover-target="rehype-twoslash-e22cs1sH-0"><span class="pl-c1">str</span></span></span><span class="pl-k">:</span> <span class="pl-c1">string</span> <span class="pl-k">=</span> <span class="pl-c1">1</span>
+<span class="rehype-twoslash-popover-target" data-popover-target="rehype-twoslash-e22cs1sH-3"><span class="rehype-twoslash-error-target rehype-twoslash-popover-target" data-popover-target="rehype-twoslash-e22cs1sH-2"><span class="pl-smi">str</span></span></span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>Hello<span class="pl-pds">'</span></span>
+</code></pre>
+<div class="rehype-twoslash-error rehype-twoslash-popover" id="rehype-twoslash-e22cs1sH-0" popover><pre class="rehype-twoslash-popover-code"><code>Type 'number' is not assignable to type 'string'. (2322)</code></pre></div>
+<div class="rehype-twoslash-hover rehype-twoslash-popover" id="rehype-twoslash-e22cs1sH-1" popover><pre class="rehype-twoslash-popover-code"><code class="language-ts"><span class="pl-k">const</span> <span class="pl-c1">str</span><span class="pl-k">:</span> <span class="pl-c1">string</span></code></pre></div>
+<div class="rehype-twoslash-error rehype-twoslash-popover" id="rehype-twoslash-e22cs1sH-2" popover><pre class="rehype-twoslash-popover-code"><code>Cannot assign to 'str' because it is a constant. (2588)</code></pre></div>
+<div class="rehype-twoslash-hover rehype-twoslash-popover" id="rehype-twoslash-e22cs1sH-3" popover><pre class="rehype-twoslash-popover-code"><code class="language-ts"><span class="pl-k">const</span> <span class="pl-c1">str</span><span class="pl-k">:</span> <span class="pl-c1">any</span></code></pre></div>
+</div>
+
+<h2><code>noErrors</code></h2>
+<div class="highlight highlight-ts">
+<pre><code class="language-ts"><span class="pl-k">const</span> <span class="rehype-twoslash-popover-target" data-popover-target="rehype-twoslash-ncsss1sH-0"><span class="pl-c1">str</span></span><span class="pl-k">:</span> <span class="pl-c1">string</span> <span class="pl-k">=</span> <span class="pl-c1">1</span>
+<span class="rehype-twoslash-popover-target" data-popover-target="rehype-twoslash-ncsss1sH-1"><span class="pl-smi">str</span></span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>Hello<span class="pl-pds">'</span></span>
+</code></pre>
+<div class="rehype-twoslash-hover rehype-twoslash-popover" id="rehype-twoslash-ncsss1sH-0" popover><pre class="rehype-twoslash-popover-code"><code class="language-ts"><span class="pl-k">const</span> <span class="pl-c1">str</span><span class="pl-k">:</span> <span class="pl-c1">string</span></code></pre></div>
+<div class="rehype-twoslash-hover rehype-twoslash-popover" id="rehype-twoslash-ncsss1sH-1" popover><pre class="rehype-twoslash-popover-code"><code class="language-ts"><span class="pl-k">const</span> <span class="pl-c1">str</span><span class="pl-k">:</span> <span class="pl-c1">any</span></code></pre></div>
+</div>
+
+<h2><code>noErrorsCutted</code></h2>
+<div class="highlight highlight-ts">
+<pre><code class="language-ts"><span class="pl-k">const</span> <span class="rehype-twoslash-popover-target" data-popover-target="rehype-twoslash-nchwibic-0"><span class="pl-c1">hello</span></span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>world<span class="pl-pds">'</span></span>
+</code></pre>
+<div class="rehype-twoslash-hover rehype-twoslash-popover" id="rehype-twoslash-nchwibic-0" popover><pre class="rehype-twoslash-popover-code"><code class="language-ts"><span class="pl-k">const</span> <span class="pl-c1">hello</span><span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">"</span>world<span class="pl-pds">"</span></span></code></pre></div>
+</div>
+
+<h2><code>noErrorValidation</code></h2>
+<div class="highlight highlight-ts">
+<pre><code class="language-ts"><span class="pl-k">const</span> <span class="rehype-twoslash-popover-target" data-popover-target="rehype-twoslash-ncsscss1-1"><span class="rehype-twoslash-error-target rehype-twoslash-popover-target" data-popover-target="rehype-twoslash-ncsscss1-0"><span class="pl-c1">str</span></span></span><span class="pl-k">:</span> <span class="pl-c1">string</span> <span class="pl-k">=</span> <span class="pl-c1">1</span>
+</code></pre>
+<div class="rehype-twoslash-error rehype-twoslash-popover" id="rehype-twoslash-ncsscss1-0" popover><pre class="rehype-twoslash-popover-code"><code>Type 'number' is not assignable to type 'string'. (2322)</code></pre></div>
+<div class="rehype-twoslash-hover rehype-twoslash-popover" id="rehype-twoslash-ncsscss1-1" popover><pre class="rehype-twoslash-popover-code"><code class="language-ts"><span class="pl-k">const</span> <span class="pl-c1">str</span><span class="pl-k">:</span> <span class="pl-c1">string</span></code></pre></div>
+</div>
+
+<h2><code>keepNotations</code></h2>
+<div class="highlight highlight-ts">
+<pre><code class="language-ts"><span class="pl-c">// @keepNotations</span>
+<span class="pl-c">// @module: esnext</span>
+<span class="pl-c">// @errors: 2322</span>
+<span class="pl-k">const</span> <span class="rehype-twoslash-popover-target" data-popover-target="rehype-twoslash-kmeecss1-1"><span class="rehype-twoslash-error-target rehype-twoslash-popover-target" data-popover-target="rehype-twoslash-kmeecss1-0"><span class="pl-c1">str</span></span></span><span class="pl-k">:</span> <span class="pl-c1">string</span> <span class="pl-k">=</span> <span class="pl-c1">1</span>
+</code></pre>
+<div class="rehype-twoslash-error rehype-twoslash-popover" id="rehype-twoslash-kmeecss1-0" popover><pre class="rehype-twoslash-popover-code"><code>Type 'number' is not assignable to type 'string'. (2322)</code></pre></div>
+<div class="rehype-twoslash-hover rehype-twoslash-popover" id="rehype-twoslash-kmeecss1-1" popover><pre class="rehype-twoslash-popover-code"><code class="language-ts"><span class="pl-k">const</span> <span class="pl-c1">str</span><span class="pl-k">:</span> <span class="pl-c1">string</span></code></pre></div>
+</div>

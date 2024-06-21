@@ -1,0 +1,27 @@
+<pre><code class="language-typescript">const level: string = 'Danger'
+// ---cut---
+console.log(level)
+</code></pre>
+
+<pre><code class="language-typescript">// @filename: a.ts
+export const helloWorld: string = 'Hi'
+// ---cut---
+// @filename: b.ts
+import { helloWorld } from './a'
+
+console.log(helloWorld)
+</code></pre>
+
+<pre><code class="language-typescript">const level: string = 'Danger'
+// ---cut-before---
+console.log(level)
+// ---cut-after---
+console.log('This is not shown')
+</code></pre>
+
+<pre><code class="language-typescript">const level: string = 'Danger'
+// ---cut-start---
+console.log(level) // This is not shown.
+// ---cut-end---
+console.log('This is shown')
+</code></pre>

@@ -1,0 +1,17 @@
+<pre><code class="language-typescript">// @errors: 2322
+// Declare a tuple type
+let x: [string, number]
+
+// Initialize it
+x = ['hello', 10]
+// Initialize it incorrectly
+x = [10, 'hello']
+</code></pre>
+
+<pre><code class="language-typescript">// @errors: 2339
+let x: [string, number]
+x = ['hello', 10] // OK
+// ---cut---
+console.log(x[0].substring(1))
+console.log(x[1].substring(1))
+</code></pre>

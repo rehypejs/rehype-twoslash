@@ -1,0 +1,42 @@
+<h1>Options</h1>
+<p><code>noImplicitAny</code></p>
+<pre><code class="language-typescript">// @noImplicitAny: false
+// @target: esnext
+// @lib: esnext
+// This suppose to throw an error,
+// but it won’t because we disabled noImplicitAny.
+const fn = a => a + 1
+</code></pre>
+<p><code>showEmit</code></p>
+<pre><code class="language-typescript">// @showEmit
+const level: string = 'Danger'
+</code></pre>
+<p><code>showEmittedFile</code></p>
+<pre><code class="language-typescript">// @declaration
+// @showEmit
+// @showEmittedFile: index.d.ts
+export const hello = 'world'
+</code></pre>
+<p><code>showEmittedFile (index.js.map)</code></p>
+<pre><code class="language-typescript">// @sourceMap
+// @showEmit
+// @showEmittedFile: index.js.map
+export const hello = 'world'
+</code></pre>
+<p><code>showEmittedFile (index.d.ts.map)</code></p>
+<pre><code class="language-typescript">// @declaration
+// @declarationMap
+// @showEmit
+// @showEmittedFile: index.d.ts.map
+export const hello: string = 'world'
+</code></pre>
+<p><code>showEmittedFile (js)</code></p>
+<pre><code class="language-typescript">// @showEmit
+// @showEmittedFile: b.js
+// @filename: a.ts
+export const helloWorld: string = 'Hi'
+
+// @filename: b.ts
+import { helloWorld } from './a'
+console.log(helloWorld)
+</code></pre>

@@ -1,0 +1,10 @@
+.DS_Store
+*.d.ts.map
+*.d.ts
+*.log
+coverage/
+node_modules/
+yarn.lock
+demo/index.html
+!/index.d.ts
+!/lib/types.d.ts

@@ -12,6 +12,7 @@
     "rehype-plugin",
     "syntax",
     "twoslash",
+    "typescript",
     "unified"
   ],
   "repository": "rehypejs/rehype-twoslash",

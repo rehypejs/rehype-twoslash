@@ -65,6 +65,10 @@ or any place where you want to talk about JavaScript-y code,
 and want to improve the experience of your readers by showing them more
 info about the code.
 
+You can combine this package with
+[`rehype-starry-night`][github-rehype-starry-night].
+That applies syntax highlighting with `starry-night` to all code.
+
 If you are not using remark or rehype,
 you can instead use [`twoslash`][twoslash] directly.
 If you don’t care for [`starry-night`][github-starry-night],
@@ -365,8 +369,8 @@ exploit it.
 
 ## Related
 
-* [`rehype-highlight`](https://github.com/rehypejs/rehype-highlight)
-  — highlight code blocks
+* [`rehype-starry-night`](https://github.com/rehypejs/rehype-starry-night)
+  — apply syntax highlighting with `starry-night` to all code
 
 ## Contribute
 
@@ -421,6 +425,8 @@ abide by its terms.
 [github-gist-esm]: https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c
 
 [github-rehype]: https://github.com/rehypejs/rehype
+
+[github-rehype-starry-night]: https://github.com/rehypejs/rehype-starry-night
 
 [github-remark-parse]: https://github.com/remarkjs/remark/tree/main/packages/remark-parse
 

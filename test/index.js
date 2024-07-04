@@ -38,9 +38,9 @@ alert(hi)
 <pre><code class="language-ts twoslash"><span class="pl-k">const</span> <span class="rehype-twoslash-popover-target" data-popover-target="rehype-twoslash-chHachHa-0"><span class="pl-c1">hi</span></span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>Hello<span class="pl-pds">'</span></span>
 <span class="rehype-twoslash-popover-target" data-popover-target="rehype-twoslash-chHachHa-1"><span class="pl-en">alert</span></span>(<span class="rehype-twoslash-popover-target" data-popover-target="rehype-twoslash-chHachHa-2"><span class="pl-smi">hi</span></span>)
 </code></pre>
-<div class="rehype-twoslash-hover rehype-twoslash-popover" id="rehype-twoslash-chHachHa-0" popover><pre class="rehype-twoslash-popover-code"><code class="language-ts"><span class="pl-k">const</span> <span class="pl-c1">hi</span><span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">"</span>Hello<span class="pl-pds">"</span></span></code></pre></div>
-<div class="rehype-twoslash-hover rehype-twoslash-popover" id="rehype-twoslash-chHachHa-1" popover><pre class="rehype-twoslash-popover-code"><code class="language-ts"><span class="pl-k">function</span> <span class="pl-en">alert</span>(<span class="pl-v">message</span><span class="pl-k">?:</span> <span class="pl-c1">any</span>)<span class="pl-k">:</span> <span class="pl-c1">void</span></code></pre><div class="rehype-twoslash-popover-description"><p><a href="https://developer.mozilla.org/docs/Web/API/Window/alert">MDN Reference</a></p></div></div>
-<div class="rehype-twoslash-hover rehype-twoslash-popover" id="rehype-twoslash-chHachHa-2" popover><pre class="rehype-twoslash-popover-code"><code class="language-ts"><span class="pl-k">const</span> <span class="pl-c1">hi</span><span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">"</span>Hello<span class="pl-pds">"</span></span></code></pre></div>
+<div class="rehype-twoslash-hover rehype-twoslash-popover" id="rehype-twoslash-chHachHa-0" popover=""><pre class="rehype-twoslash-popover-code"><code class="language-ts"><span class="pl-k">const</span> <span class="pl-c1">hi</span><span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">"</span>Hello<span class="pl-pds">"</span></span></code></pre></div>
+<div class="rehype-twoslash-hover rehype-twoslash-popover" id="rehype-twoslash-chHachHa-1" popover=""><pre class="rehype-twoslash-popover-code"><code class="language-ts"><span class="pl-k">function</span> <span class="pl-en">alert</span>(<span class="pl-v">message</span><span class="pl-k">?:</span> <span class="pl-c1">any</span>)<span class="pl-k">:</span> <span class="pl-c1">void</span></code></pre><div class="rehype-twoslash-popover-description"><p><a href="https://developer.mozilla.org/docs/Web/API/Window/alert">MDN Reference</a></p></div></div>
+<div class="rehype-twoslash-hover rehype-twoslash-popover" id="rehype-twoslash-chHachHa-2" popover=""><pre class="rehype-twoslash-popover-code"><code class="language-ts"><span class="pl-k">const</span> <span class="pl-c1">hi</span><span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">"</span>Hello<span class="pl-pds">"</span></span></code></pre></div>
 </div>
 `
     )
@@ -268,8 +268,8 @@ const b = 12331234
 <span class="pl-c">// @thingTwo - This should stay (note the no ':')</span>
 <span class="pl-k">const</span> <span class="rehype-twoslash-popover-target" data-popover-target="rehype-twoslash-tOscncb1-1"><span class="pl-c1">b</span></span> <span class="pl-k">=</span> <span class="pl-c1">12331234</span>
 </code></pre>
-<div class="rehype-twoslash-hover rehype-twoslash-popover" id="rehype-twoslash-tOscncb1-0" popover><pre class="rehype-twoslash-popover-code"><code class="language-ts"><span class="pl-k">const</span> <span class="pl-c1">a</span><span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">"</span>123<span class="pl-pds">"</span></span></code></pre></div>
-<div class="rehype-twoslash-hover rehype-twoslash-popover" id="rehype-twoslash-tOscncb1-1" popover><pre class="rehype-twoslash-popover-code"><code class="language-ts"><span class="pl-k">const</span> <span class="pl-c1">b</span><span class="pl-k">:</span> <span class="pl-c1">12331234</span></code></pre></div>
+<div class="rehype-twoslash-hover rehype-twoslash-popover" id="rehype-twoslash-tOscncb1-0" popover=""><pre class="rehype-twoslash-popover-code"><code class="language-ts"><span class="pl-k">const</span> <span class="pl-c1">a</span><span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">"</span>123<span class="pl-pds">"</span></span></code></pre></div>
+<div class="rehype-twoslash-hover rehype-twoslash-popover" id="rehype-twoslash-tOscncb1-1" popover=""><pre class="rehype-twoslash-popover-code"><code class="language-ts"><span class="pl-k">const</span> <span class="pl-c1">b</span><span class="pl-k">:</span> <span class="pl-c1">12331234</span></code></pre></div>
 </div>`
     )
 
@@ -289,8 +289,8 @@ const b = 12331234
       String(file),
       `<div class="highlight highlight-ts">
 <pre><code class="language-ts twoslash"><span class="rehype-twoslash-popover-target" data-popover-target="custom-cc-0"><span class="pl-c1">console</span></span>.<span class="rehype-twoslash-popover-target" data-popover-target="custom-cc-1"><span class="pl-c1">log</span></span>(<span class="pl-s"><span class="pl-pds">'</span>hi<span class="pl-pds">'</span></span>)</code></pre>
-<div class="rehype-twoslash-hover rehype-twoslash-popover" id="custom-cc-0" popover><pre class="rehype-twoslash-popover-code"><code class="language-ts"><span class="pl-k">var</span> <span class="pl-smi">console</span><span class="pl-k">:</span> <span class="pl-en">Console</span></code></pre></div>
-<div class="rehype-twoslash-hover rehype-twoslash-popover" id="custom-cc-1" popover><pre class="rehype-twoslash-popover-code"><code class="language-ts">(<span class="pl-smi">method</span>) <span class="pl-c1">Console</span>.<span class="pl-en">log</span>(<span class="pl-k">...</span><span class="pl-smi">data</span>: <span class="pl-smi">any</span>[]): <span class="pl-k">void</span></code></pre><div class="rehype-twoslash-popover-description"><p><a href="https://developer.mozilla.org/docs/Web/API/console/log_static">MDN Reference</a></p></div></div>
+<div class="rehype-twoslash-hover rehype-twoslash-popover" id="custom-cc-0" popover=""><pre class="rehype-twoslash-popover-code"><code class="language-ts"><span class="pl-k">var</span> <span class="pl-smi">console</span><span class="pl-k">:</span> <span class="pl-en">Console</span></code></pre></div>
+<div class="rehype-twoslash-hover rehype-twoslash-popover" id="custom-cc-1" popover=""><pre class="rehype-twoslash-popover-code"><code class="language-ts">(<span class="pl-smi">method</span>) <span class="pl-c1">Console</span>.<span class="pl-en">log</span>(<span class="pl-k">...</span><span class="pl-smi">data</span>: <span class="pl-smi">any</span>[]): <span class="pl-k">void</span></code></pre><div class="rehype-twoslash-popover-description"><p><a href="https://developer.mozilla.org/docs/Web/API/console/log_static">MDN Reference</a></p></div></div>
 </div>`
     )
 
@@ -366,8 +366,8 @@ console.log(3.14)
         `<div class="highlight highlight-ts">
 <pre><code class="language-ts"><span class="rehype-twoslash-popover-target" data-popover-target="rehype-twoslash-cc-0"><span class="pl-c1">console</span></span>.<span class="rehype-twoslash-popover-target" data-popover-target="rehype-twoslash-cc-1"><span class="pl-c1">log</span></span>(<span class="pl-c1">3.14</span>)
 </code></pre>
-<div class="rehype-twoslash-hover rehype-twoslash-popover" id="rehype-twoslash-cc-0" popover><pre class="rehype-twoslash-popover-code"><code class="language-ts"><span class="pl-k">var</span> <span class="pl-smi">console</span><span class="pl-k">:</span> <span class="pl-en">Console</span></code></pre></div>
-<div class="rehype-twoslash-hover rehype-twoslash-popover" id="rehype-twoslash-cc-1" popover><pre class="rehype-twoslash-popover-code"><code class="language-ts">(<span class="pl-smi">method</span>) <span class="pl-c1">Console</span>.<span class="pl-en">log</span>(<span class="pl-k">...</span><span class="pl-smi">data</span>: <span class="pl-smi">any</span>[]): <span class="pl-k">void</span></code></pre><div class="rehype-twoslash-popover-description"><p><a href="https://developer.mozilla.org/docs/Web/API/console/log_static">MDN Reference</a></p></div></div>
+<div class="rehype-twoslash-hover rehype-twoslash-popover" id="rehype-twoslash-cc-0" popover=""><pre class="rehype-twoslash-popover-code"><code class="language-ts"><span class="pl-k">var</span> <span class="pl-smi">console</span><span class="pl-k">:</span> <span class="pl-en">Console</span></code></pre></div>
+<div class="rehype-twoslash-hover rehype-twoslash-popover" id="rehype-twoslash-cc-1" popover=""><pre class="rehype-twoslash-popover-code"><code class="language-ts">(<span class="pl-smi">method</span>) <span class="pl-c1">Console</span>.<span class="pl-en">log</span>(<span class="pl-k">...</span><span class="pl-smi">data</span>: <span class="pl-smi">any</span>[]): <span class="pl-k">void</span></code></pre><div class="rehype-twoslash-popover-description"><p><a href="https://developer.mozilla.org/docs/Web/API/console/log_static">MDN Reference</a></p></div></div>
 </div>`
       )
       assert.deepEqual(file.messages.map(String), [])
@@ -536,7 +536,7 @@ console.log(3.14)
               properties: {
                 className: ['rehype-twoslash-hover', 'rehype-twoslash-popover'],
                 id: 'rehype-twoslash-cc-0',
-                popover: true
+                popover: ''
               },
               children: [
                 {
@@ -588,7 +588,7 @@ console.log(3.14)
               properties: {
                 className: ['rehype-twoslash-hover', 'rehype-twoslash-popover'],
                 id: 'rehype-twoslash-cc-1',
-                popover: true
+                popover: ''
               },
               children: [
                 {

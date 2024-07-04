@@ -140,10 +140,10 @@ console.log(String(file))
 <pre><code class="language-js"><span class="pl-k">const</span> <span class="rehype-twoslash-popover-target" data-popover-target="rehype-twoslash-cnJcnJcn-0"><span class="pl-c1">name</span></span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>Jupiter<span class="pl-pds">'</span></span>
 <span class="rehype-twoslash-popover-target" data-popover-target="rehype-twoslash-cnJcnJcn-1"><span class="pl-en">console</span></span>.<span class="rehype-twoslash-popover-target" data-popover-target="rehype-twoslash-cnJcnJcn-2"><span class="pl-c1">log</span></span>(<span class="pl-s"><span class="pl-pds">'</span>Hello, <span class="pl-pds">'</span></span> <span class="pl-k">+</span> <span class="rehype-twoslash-popover-target" data-popover-target="rehype-twoslash-cnJcnJcn-3">name</span> <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">'</span>!<span class="pl-pds">'</span></span>)
 </code></pre>
-<div class="rehype-twoslash-hover rehype-twoslash-popover" id="rehype-twoslash-cnJcnJcn-0" popover><pre class="rehype-twoslash-popover-code"><code class="language-ts"><span class="pl-k">const</span> <span class="pl-c1">name</span><span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">"</span>Jupiter<span class="pl-pds">"</span></span></code></pre></div>
-<div class="rehype-twoslash-hover rehype-twoslash-popover" id="rehype-twoslash-cnJcnJcn-1" popover><pre class="rehype-twoslash-popover-code"><code class="language-ts"><span class="pl-k">var</span> <span class="pl-smi">console</span><span class="pl-k">:</span> <span class="pl-en">Console</span></code></pre></div>
-<div class="rehype-twoslash-hover rehype-twoslash-popover" id="rehype-twoslash-cnJcnJcn-2" popover><pre class="rehype-twoslash-popover-code"><code class="language-ts">(<span class="pl-smi">method</span>) <span class="pl-c1">Console</span>.<span class="pl-en">log</span>(<span class="pl-k">...</span><span class="pl-smi">data</span>: <span class="pl-smi">any</span>[]): <span class="pl-k">void</span></code></pre><div class="rehype-twoslash-popover-description"><p><a href="https://developer.mozilla.org/docs/Web/API/console/log_static">MDN Reference</a></p></div></div>
-<div class="rehype-twoslash-hover rehype-twoslash-popover" id="rehype-twoslash-cnJcnJcn-3" popover><pre class="rehype-twoslash-popover-code"><code class="language-ts"><span class="pl-k">const</span> <span class="pl-c1">name</span><span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">"</span>Jupiter<span class="pl-pds">"</span></span></code></pre></div>
+<div class="rehype-twoslash-hover rehype-twoslash-popover" id="rehype-twoslash-cnJcnJcn-0" popover=""><pre class="rehype-twoslash-popover-code"><code class="language-ts"><span class="pl-k">const</span> <span class="pl-c1">name</span><span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">"</span>Jupiter<span class="pl-pds">"</span></span></code></pre></div>
+<div class="rehype-twoslash-hover rehype-twoslash-popover" id="rehype-twoslash-cnJcnJcn-1" popover=""><pre class="rehype-twoslash-popover-code"><code class="language-ts"><span class="pl-k">var</span> <span class="pl-smi">console</span><span class="pl-k">:</span> <span class="pl-en">Console</span></code></pre></div>
+<div class="rehype-twoslash-hover rehype-twoslash-popover" id="rehype-twoslash-cnJcnJcn-2" popover=""><pre class="rehype-twoslash-popover-code"><code class="language-ts">(<span class="pl-smi">method</span>) <span class="pl-c1">Console</span>.<span class="pl-en">log</span>(<span class="pl-k">...</span><span class="pl-smi">data</span>: <span class="pl-smi">any</span>[]): <span class="pl-k">void</span></code></pre><div class="rehype-twoslash-popover-description"><p><a href="https://developer.mozilla.org/docs/Web/API/console/log_static">MDN Reference</a></p></div></div>
+<div class="rehype-twoslash-hover rehype-twoslash-popover" id="rehype-twoslash-cnJcnJcn-3" popover=""><pre class="rehype-twoslash-popover-code"><code class="language-ts"><span class="pl-k">const</span> <span class="pl-c1">name</span><span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">"</span>Jupiter<span class="pl-pds">"</span></span></code></pre></div>
 </div>
 ```
 
@@ -303,7 +303,7 @@ It has a corresponding tooltip:
 <div
   class="rehype-twoslash-hover rehype-twoslash-popover"
   id="rehype-twoslash-cnJcnJcn-3"
-  popover
+  popover=""
 >
   <pre class="rehype-twoslash-popover-code"><code class="language-ts"><span class="pl-k">const</span> <span class="pl-c1">name</span><span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">"</span>Jupiter<span class="pl-pds">"</span></span></code></pre>
 </div>
